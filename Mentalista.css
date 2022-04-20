@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://www.telesintese.com.br/wp-content/uploads/2020/01/ideia-pensamento-pensando.jpg");
+  background-size: cover;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.page-title {
+  color: #000000;
+  margin: 30px 0 5px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 10px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: orange;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+}
